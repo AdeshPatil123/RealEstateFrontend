@@ -1,4 +1,4 @@
-you can see the project deployment just click on the link:
+you can see the project deployment on vercel. just click on the link:
 [https://real-estate-frontend-gamma.vercel.app/]
 
 
