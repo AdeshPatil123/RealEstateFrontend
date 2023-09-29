@@ -5,6 +5,7 @@ import { withRouter } from "react-router-dom";
 const container1 = {
   height: "500px",
   background: "url('./Assets/car1.jpg') no-repeat center/cover",
+  padding:"10px"
 };
 
 class Wallpaper extends React.Component {
@@ -93,7 +94,7 @@ class Wallpaper extends React.Component {
             className="row d-flex justify-content-center align-items-center"
             style={{ height: "100%" }}
           >
-            <div className="col-xl-8 col-lg-9 col-md-10 col-sm-12 py-5 d-flex flex-column justify-content-center align-items-center content1">
+            <div className="bx10 col-xl-8 col-lg-9 col-md-10 col-sm-12 py-5 d-flex flex-column justify-content-center align-items-center content1">
               <div className="logo1 mb-3">
                 <h2>Megatron Realestates</h2>
               </div>

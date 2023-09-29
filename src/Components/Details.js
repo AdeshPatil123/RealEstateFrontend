@@ -77,9 +77,17 @@ class Details extends React.Component{
     </div>
     <div class="carousel-item">
       <img src={thumbnail[1]} class="d-block w-100-height" alt="..." />
+      <div class="carousel-caption carousel1">
+      <h5>{property.name}</h5>
+      <h4>{property.Address}</h4>
+      </div>
     </div>
     <div class="carousel-item">
       <img src={thumbnail[2]} class="d-block w-100-height" alt="..." />
+      <div class="carousel-caption carousel1">
+      <h5>{property.name}</h5>
+      <h4>{property.Address}</h4>
+      </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
