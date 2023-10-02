@@ -78,6 +78,7 @@ class UpdateP extends React.Component{
             <input
               type="text"
               name="name"
+              className="inpt"
               value={this.state.name}
               placeholder={property.name}
               onChange={this.handleInputChange}
@@ -88,6 +89,7 @@ class UpdateP extends React.Component{
             <input
               type="text"
               name="city"
+              className="inpt"
               value={this.state.city}
               placeholder={property.city}
               onChange={this.handleInputChange}
@@ -98,6 +100,7 @@ class UpdateP extends React.Component{
             <input
               type="text"
               name="contact_number"
+              className="inpt"
               value={this.state.contact_number}
               placeholder={property.contact_number}
               onChange={this.handleInputChange}
@@ -109,6 +112,7 @@ class UpdateP extends React.Component{
               type="text"
               name="min_price"
               value={this.state.min_price}
+              className="inpt"
               placeholder={property.min_price}
               onChange={this.handleInputChange}
             />
@@ -120,6 +124,7 @@ class UpdateP extends React.Component{
               name="Address"
               value={this.state.Address}
               placeholder={property.Address}
+              className="inpt"
               onChange={this.handleInputChange}
             />
           </div>

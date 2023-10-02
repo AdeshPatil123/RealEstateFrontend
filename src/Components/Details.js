@@ -108,8 +108,8 @@ class Details extends React.Component{
           <div className="col-xl-6 col-lg-6 col-md-11 col-sm-11 content3">
             <p>{property.description}</p>
             <p><i class="fa-solid fa-location-dot" style={{"color":"orange"}}></i>{property.Address}</p>
-            <p><i class="fa-solid fa-phone" style={{"color":"blue"}}></i>{property.contact_number}</p>
-            <p><i class="fa-solid fa-indian-rupee-sign" style={{"color":"silver"}}></i>{property.min_price}/.</p>
+            <p><i class="fa-solid fa-phone" style={{"color":"orange"}}></i>{property.contact_number}</p>
+            <p><i class="fa-solid fa-indian-rupee-sign" style={{"color":"orange"}}></i>{property.min_price}/.</p>
           </div>
     </div>
     <div className="row gmap">

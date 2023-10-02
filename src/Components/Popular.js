@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet, Link } from "react-router-dom";
 
 class Popular extends React.Component{
     render(){
@@ -10,14 +11,14 @@ class Popular extends React.Component{
         </div>
         <div className="d-flex">
             <h2>Our Popular Residence</h2>
-            <h6 className="ms-auto">Explore All <span className="arrow-icon">&rarr;</span> </h6>
+            <h6 className="ms-auto"><Link className="nav-link" to="/create">Explore All <span className="arrow-icon">&rarr;</span></Link></h6>
         </div>
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3  g-4 mt-2">
             <div className="col">
                 <div className="card border-1 rounded-0">
                     <img src="./Assets/car1.jpg" className="card-img-top rounded" alt="image"/>
                     <div className="card-body">
-                        <p className="card-text text-muted">Chauk, Khalapur</p>
+                        <p className="card-text text-muted">Vichumbe,Panvel</p>
                         <div className="d-flex my-2">
                             <button className="btn btn-lg text-white bg-dark px-4">Book Now</button>
                             <h5 className="my-auto ms-auto">&#8377;2,20,11,330</h5>
@@ -28,9 +29,9 @@ class Popular extends React.Component{
 
             <div className="col">
                 <div className="card border-0 rounded-0">
-                    <img src="./Assets/car1.jpg" className="card-img-top rounded" alt="image"/>
+                    <img src="./Assets/banglow.jpg" className="card-img-top rounded" alt="image"/>
                     <div className="card-body">
-                        <p className="card-text text-muted">Chauk, Khalapur</p>
+                        <p className="card-text text-muted">Karanjade,Panvel</p>
                         <div className="d-flex my-2">
                             <button className="btn btn-lg text-white bg-dark px-4">Book Now</button>
                             <h5 className="my-auto ms-auto">&#8377;2,20,11,330</h5>
@@ -41,9 +42,9 @@ class Popular extends React.Component{
 
             <div className="col">
                 <div className="card border-0 rounded-0">
-                    <img src="./Assets/car1.jpg" className="card-img-top rounded" alt="image"/>
+                    <img src="./Assets/sfh.jpg" className="card-img-top rounded" alt="image"/>
                     <div className="card-body">
-                        <p className="card-text text-muted">Chauk, Khalapur</p>
+                        <p className="card-text text-muted">Kamothe,Panvel</p>
                         <div className="d-flex my-2">
                             <button className="btn btn-lg text-white bg-dark px-4">Book Now</button>
                             <h5 className="my-auto ms-auto">&#8377;2,20,11,330</h5>

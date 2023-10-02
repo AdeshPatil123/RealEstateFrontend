@@ -20,12 +20,25 @@
     border-radius:12px;
 }
 .contentD .bx101{
+    text-align:center;
     background-color:#fff;
     border-radius:12px;
     box-shadow:0px 0px 12px rgba(0,0,0,0.4);
     margin-top:10px;
+    margin:10px;
     padding:10px 12px;
 
+}
+
+.addData{
+    padding:1rem;
+    background-color:#fff;
+    display:inline;
+    width:auto;
+    border-radius:10px;
+    box-shadow:0px 0px 5px rgba(0,0,0,0.4);
+    font-size:1rem;
+    font-weight:bolder;
 }
 
 

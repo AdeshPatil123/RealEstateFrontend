@@ -25,7 +25,7 @@ class CategoryCard extends React.Component {
             <img src={image} alt="img" />
             <div class="content2 p-2">
               <h2>{name}</h2>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{content}</p>
             </div>
           </div>
         </div>

@@ -7,6 +7,7 @@ import AgentPanel from "./AgentPanel";
 import CreateP from "./CreateP";
 import UpdateP from "./UpdateP";
 import Nav1 from "./Nav1";
+import AddData1 from "./AddData1";
 
 
 function Router (){
@@ -19,6 +20,8 @@ function Router (){
             <Route path="/agent" component={AgentPanel}/>
             <Route path="/create" component={CreateP}/>
             <Route path="/update" component={UpdateP}/>
+            <Route path="/addData1" component={AddData1}/>
+
 
 
 

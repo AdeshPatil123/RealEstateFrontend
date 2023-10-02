@@ -1,7 +1,9 @@
 import React from "react";
 import axios from "axios";
-import { withRouter } from "react-router-dom";
-import "./styles/agent.css"
+import { withRouter,Outlet, Link } from "react-router-dom";
+
+
+// import "./styles/agent.css"
 
 class AgentPanel extends React.Component{
     constructor(){
@@ -50,6 +52,8 @@ class AgentPanel extends React.Component{
                 <div id="Agent" className="agent1">
                     <div className="container row contentD">
                     <h2>All Data Update or Delete Data</h2>
+                       <Link className="nav-link" to="/addData1"> <span className="addData">+Add Data</span></Link>
+
                         {property.map((i)=>{
                             return(<>
                                 <div className="col-xl-12 col-lg-12 col-md-11 col-sm-11 bx101" >
