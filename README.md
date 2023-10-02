@@ -1,3 +1,7 @@
+you can see the project deployment on vercel. just click on the link:
+[https://real-estate-frontend-gamma.vercel.app/]
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
