@@ -101,7 +101,7 @@ class Details extends React.Component{
 </div>
 
 <div className="container" style={{"marginTop":"1rem","marginBottom":"1rem"}}>
-    <div className="row d-flex">
+    <div className="row d-flex description">
           <div className="col-xl-6 col-lg-6 col-md-10 col-sm-10 imgbx">
             <img src={thumbnail[1]}></img>
           </div>

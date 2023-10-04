@@ -234,6 +234,12 @@
   position:relative;
   height:auto;
 }
+
+.description{
+  /* background-color:red; */
+  height:auto;
+  margin-bottom:30px;
+}
 .content3 p{
   margin-left:30px;
   word-spacing:.3rem;
