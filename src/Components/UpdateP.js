@@ -71,6 +71,17 @@ class UpdateP extends React.Component{
           //   data: updatedData,
           // });
           // console.log('Property updated:', response.data);
+
+          let updatedText =document.querySelector(".updatedText");
+          updatedText.innerHTML = "Text Updated SuccessFully...";
+          updatedText.style.color="green";
+          updatedText.style.background="#0f0";
+
+          setTimeout(()=>{
+            window.location.reload();
+          },3000)
+
+
     }
 
 
@@ -79,6 +90,7 @@ class UpdateP extends React.Component{
         // console.log(property)
         return(
             <>
+                    <h3 className="updatedText"></h3>
                 <div id="update" className="container d-flex justify-content-center align-items-center" style={{"width":"100%","minHeight":"100vh"}}>
                     <div className="updateForm">
                     <h2>Update Property</h2>
