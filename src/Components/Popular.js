@@ -9,7 +9,7 @@ class Popular extends React.Component{
         <div className="text-center">
             <h2>Popular</h2>
         </div>
-        <div className="d-flex">
+        <div className="d-flex popularh">
             <h2>Our Popular Residence</h2>
             <h6 className="ms-auto"><Link className="nav-link" to="/create">Explore All <span className="arrow-icon">&rarr;</span></Link></h6>
         </div>

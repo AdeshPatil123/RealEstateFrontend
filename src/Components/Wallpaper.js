@@ -3,7 +3,7 @@ import axios from "axios";
 import { withRouter } from "react-router-dom";
 
 const container1 = {
-  height: "500px",
+  minHeight: "100vh",
   background: "url('./Assets/car1.jpg') no-repeat center/cover",
   padding:"10px"
 };

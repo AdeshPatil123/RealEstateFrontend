@@ -3,11 +3,17 @@
     padding:0;
     box-sizing:border-box;
 }
+.contentD a{
+    margin-top:10px;
+    margin-left:-10px;
+    color:rgb(1, 1, 35);
+}
 
 .AddDatabx{
     min-height:100vh;
     background-color:#fff;
     flex-direction:column;
+    width:100%;
 }
 .AddDatabx .formboc{
     display:flex;
@@ -16,6 +22,7 @@
     justify-content:space-between;
     padding-top:20px;
     padding-bottom:20px;
+    width:500px;
 }
 .AddDatabx .inputbx{
     /* height:100px; */
@@ -68,3 +75,17 @@
     margin-top:3px;
 }
 
+
+
+
+/* @media only screen and (max-width:767px){
+    .AddDatabx .formboc{
+        width:90%; 
+    }
+}
+@media only screen and (max-width:320px){
+    .AddDatabx .formboc{
+        width:80%; 
+        padding:10px;
+    }
+} */

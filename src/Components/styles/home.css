@@ -154,4 +154,12 @@
         padding:10px 15px;
         font-size:15px;
     }
+    .popularh{
+        flex-direction:column;
+    }
+    .popularh h2{
+        text-align:center;
+        font-size:1.3rem;
+        font-weight:300;
+    }
 }

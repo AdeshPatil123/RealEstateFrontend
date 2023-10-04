@@ -130,8 +130,8 @@ class AddData1 extends React.Component {
           className="container-fluid AddDatabx d-flex justify-content-center align-items-center " style={{"marginTop":"10px"}}
         >
             <h2 id="heading1">Add New Property</h2>
-            <form className="row" onSubmit={this.handleSubmit}>
-          <div className="container formboc">
+            <form onSubmit={this.handleSubmit}>
+          <div className="container row formboc col-xl-9 col-lg-9 col-md-10 col-sm-11">
               <div className="inputbx">
                 <input
                   type="text"
