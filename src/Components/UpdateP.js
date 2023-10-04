@@ -24,7 +24,7 @@ class UpdateP extends React.Component{
 
         const result = await axios({
             method: "GET",
-            url: `http://localhost:8050/propertyById/${property}`,
+            url: `https://real-estate-node-code.vercel.app/propertyById/${property}`,
             headers: { "Content-Type": "application/json" },
           });
   
@@ -51,8 +51,10 @@ class UpdateP extends React.Component{
           min_price:this.state.min_price
         };
 
+        
+
         axios
-        .put(`http://localhost:8050/update/${property}`, updatedData)
+        .put(`https://real-estate-node-code.vercel.app/update/${property}`, updatedData)
         .then((response) => {
           
           console.log('Property updated:', response.data);
@@ -61,6 +63,14 @@ class UpdateP extends React.Component{
           console.error('Error updating property:', error);
         });
 
+        
+          // const response = await axios({
+          //   method: "PUT",
+          //   url: `https://real-estate-node-code.vercel.app/update/${property}`,
+          //   headers: { "Content-Type": "application/json" },
+          //   data: updatedData,
+          // });
+          // console.log('Property updated:', response.data);
     }
 
 

@@ -120,7 +120,9 @@ class AddData1 extends React.Component {
       heading.style.color="#f0f";
       heading.innerHTML = "New Data Added Successfully";
 
-      window.location.reload();
+      setTimeout(()=>{
+        window.location.reload();
+      },3000)
   };
 
   render() {
