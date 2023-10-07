@@ -129,7 +129,7 @@ class Wallpaper extends React.Component {
                     type="search"
                     id="srch"
                     className="form-control me-2"
-                    placeholder="search for restaurant"
+                    placeholder="search property here..."
                     onChange={this.handleSearch}
                   />
                   {this.showSuggestion()}
